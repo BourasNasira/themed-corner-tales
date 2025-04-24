@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 
@@ -18,7 +17,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <h1 className="font-serif text-cafe-brown text-xl font-bold">Chapter & Brew</h1>
+            <h1 className="font-serif text-cafe-brown text-xl font-bold">The Espresso Library</h1>
           </div>
           
           {/* Desktop Navigation */}

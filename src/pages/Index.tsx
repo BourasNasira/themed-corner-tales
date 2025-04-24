@@ -1,4 +1,3 @@
-
 import { Book, Clock, MapPin } from 'lucide-react';
 import Navigation from '../components/Navigation';
 
@@ -13,8 +12,8 @@ const Index = () => {
           <div className="absolute inset-0 bg-black/40">
             <div className="container mx-auto h-full flex items-center justify-center">
               <div className="text-center text-white">
-                <h1 className="font-serif text-5xl md:text-7xl mb-4">Chapter & Brew</h1>
-                <p className="text-xl md:text-2xl mb-8">Where Stories Come Alive</p>
+                <h1 className="font-serif text-5xl md:text-7xl mb-4">The Espresso Library</h1>
+                <p className="text-xl md:text-2xl mb-8">Where Stories and Coffee Converge</p>
               </div>
             </div>
           </div>
@@ -27,7 +26,7 @@ const Index = () => {
           <h2 className="font-serif text-4xl text-center text-cafe-brown mb-8">Current Theme: Victorian Literature</h2>
           <div className="max-w-3xl mx-auto text-center">
             <p className="text-lg text-gray-700 mb-6">
-              Step into the world of Victorian literature this month. Enjoy themed beverages and pastries while exploring classic works from Dickens, Brontë, and more.
+              Immerse yourself in the world of Victorian literature this month. Enjoy curated literary-inspired beverages and pastries while exploring classic works from Dickens, Brontë, and more.
             </p>
           </div>
         </div>
