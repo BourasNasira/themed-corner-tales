@@ -6,9 +6,9 @@ const Navigation = () => {
 
   const navItems = [
     { name: "Home", href: "#hero" },
-    { name: "Current Theme", href: "#theme" },
+    { name: "Thème actuel", href: "#theme" },
     { name: "Menu", href: "#menu" },
-    { name: "About", href: "#about" },
+    { name: "À propos", href: "#about" },
     { name: "Contact", href: "#contact" },
   ];
 
