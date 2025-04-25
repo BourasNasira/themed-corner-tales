@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { useState } from "react";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,10 +16,17 @@ const Navigation = () => {
     <nav className="fixed w-full bg-cafe-cream/90 backdrop-blur-sm z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <div className="flex-shrink-0">
-            <h1 className="font-serif text-cafe-brown text-xl font-bold">The Espresso Library</h1>
+          <div className="flex items-center gap-3 flex-shrink-0">
+            <img
+              src="/img/logo.jpg"
+              className="w-12 h-12 object-cover rounded-full"
+              style={{width:"70px"}}
+            />
+            <h1 className="font-serif text-cafe-brown text-xl font-bold">
+              The Espresso Library
+            </h1>
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
